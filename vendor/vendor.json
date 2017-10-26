@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "vyRvN3tSQUDErmNI2zeWir5hPmo=",
+			"path": "github.com/shomali11/util/xrunes",
+			"revision": "6aced18c6f939cc45505e79e5618c0e9c42fb509",
+			"revisionTime": "2017-10-26T23:08:12Z"
+		},
+		{
+			"checksumSHA1": "jqtTYw8+QraTHRyGRSIKvPAEy5k=",
+			"path": "github.com/shomali11/util/xstrings",
+			"revision": "6aced18c6f939cc45505e79e5618c0e9c42fb509",
+			"revisionTime": "2017-10-26T23:08:12Z"
+		}
+	],
+	"rootPath": "github.com/shomali11/xsql"
+}
