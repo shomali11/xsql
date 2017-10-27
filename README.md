@@ -24,7 +24,6 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/lib/pq"
 	"github.com/shomali11/xsql"
 	"log"
 )
@@ -34,8 +33,8 @@ const (
 )
 
 func main() {
-	dataSource := fmt.Sprintf(dataSourceFormat, "shomali", "", "shomali")
-	db, err := sql.Open("postgres", dataSource)
+	dataSource := fmt.Sprintf(dataSourceFormat, "<USERNAME>", "<PASSWORD>", "<DATABASE_NAME>")
+	db, err := sql.Open("<DRIVER>", dataSource)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -55,6 +54,8 @@ func main() {
 	fmt.Println(results)
 }
 ```
+
+Output:
 
 ```
  id  |      name      |         title         |         created_at          | number | decimal | active
