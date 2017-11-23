@@ -46,7 +46,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	results, err := xsql.PrettySql(rows)
+	results, err := xsql.Pretty(rows)
 	if err != nil {
 		log.Fatal(err)
 	}

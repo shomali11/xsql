@@ -23,8 +23,8 @@ const (
 	sqlRowsFooterFormat = "(%d rows)"
 )
 
-// PrettySql returns a pretty sql string
-func PrettySql(rows *sql.Rows) (string, error) {
+// Pretty returns a pretty sql string
+func Pretty(rows *sql.Rows) (string, error) {
 	columnNames, err := rows.Columns()
 	if err != nil {
 		return empty, err
