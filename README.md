@@ -2,14 +2,6 @@
 
 SQL Query Results Pretty Printing
 
-## Usage
-
-Using `govendor` [github.com/kardianos/govendor](https://github.com/kardianos/govendor):
-
-```
-govendor fetch github.com/shomali11/xsql
-```
-
 ## Dependencies
 
 * `util` [github.com/shomali11/util](https://github.com/shomali11/util)
