@@ -1,4 +1,4 @@
-# xsql [![Go Report Card](https://goreportcard.com/badge/github.com/shomali11/xsql)](https://goreportcard.com/report/github.com/shomali11/xsql) [![GoDoc](https://godoc.org/github.com/shomali11/xsql?status.svg)](https://godoc.org/github.com/shomali11/xsql) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# xsql [![Build Status](https://travis-ci.com/shomali11/xsql.svg?branch=master)](https://travis-ci.com/shomali11/xsql) [![Go Report Card](https://goreportcard.com/badge/github.com/shomali11/xsql)](https://goreportcard.com/report/github.com/shomali11/xsql) [![GoDoc](https://godoc.org/github.com/shomali11/xsql?status.svg)](https://godoc.org/github.com/shomali11/xsql) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 SQL Query Results Pretty Printing
 
